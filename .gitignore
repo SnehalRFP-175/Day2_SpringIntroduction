@@ -52,3 +52,7 @@ build/
 
 ### VS Code ###
 .vscode/
+.mvn/wrapper/
+mvnw.cmd
+pom.xml
+
