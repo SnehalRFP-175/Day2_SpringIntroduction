@@ -38,4 +38,13 @@ public class HelloController {
     {
         return "Hello "+ user.getFirstName() +" "+ user.getLastName() +" from Bridgelabz";
     }
+
+    /*
+     * UC5-PUT Request Method and pass first name as Path Variable and last name as Query Parameter
+     */
+    @PutMapping("/hello/put/{firstName}")
+    public String sayHelloWithPut(@RequestParam String lastName, @PathVariable String firstName){
+        return "Hello "+ firstName +" "+ lastName +" from Bridgelabz";
+    }
+
 }
