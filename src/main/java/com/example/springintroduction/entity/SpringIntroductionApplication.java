@@ -1,4 +1,4 @@
-package com.example.springintroduction;
+package com.example.springintroduction.entity;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SpringIntroductionApplication {
 
     public static void main(String[] args) {
+        System.out.println("Hello From Bridgelabz");
         SpringApplication.run(SpringIntroductionApplication.class, args);
     }
 
