@@ -20,6 +20,15 @@ public class HelloController {
     public String hello(@RequestParam String name){
         return "Hello "+ name +" from Bridgelabz";
     }
+    /*
+    * UC3-Get request methode and passing the Name as path variable get request mapping with path variable
+    */
+    @GetMapping("/hello/{name}")
+    public String sayHello(@PathVariable String name){
+        return "Hello "+ name +" from Bridgelabz";
+    }
+
+
 
 
 }
